@@ -8,6 +8,7 @@ This example implements a 3-tier architecture web application on Azure. Followin
 4. VNet, Subnet, NSG
 5. Azure Web App
 6. Azure SQL Database
+7. Private DNS Zones
 
 Following is the architecture diagram that is implemented in Azure using Terraform
 
@@ -50,3 +51,7 @@ Terraform.
 - **Monitoring**
     - Setup monitoring dashboards which shows the critical application metrics.
     - Setup notifications for any business critical failure.
+- **Tagging**
+    - Add tags to identify resources helpful in BI
+- **Disaster Recovery**
+    - Plan and implement the disaster recovery for the application
