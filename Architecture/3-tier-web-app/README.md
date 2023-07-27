@@ -42,7 +42,9 @@ solution.
 This section talks about possible enhancements to the architecture design and its implementation in
 Terraform.
 
-- **Terraform code extension** - Implement Azure Front Door, WAF, DDoS protection plan and APIs on APIM in Terraform IaC.
+- **Terraform code extension**
+    - Implement Azure Front Door, WAF, DDoS protection plan and APIM in Terraform IaC.
+    - Allow Windows based web apps
 - **Rate limiting** - Add throttling on Azure Front Door using WAF.
 - **Database credentials** - The Database crendentials are generated using Terraform random resource which can be stored to Key Vault for later consumption.
 - **Logging**
